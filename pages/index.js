@@ -1,7 +1,8 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Hero from '../components/Hero'
-
+import Slider from '../components/Slider'
+import { SliderData } from '../components/SliderData'
 export default function Home() {
   return (
     <div>
@@ -11,7 +12,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Hero heading = "Rishav's Lens" message ='I capture moments in nature and keep them alive.'/>
-    
+     <Slider slides ={SliderData}/>
       
     </div>
   )

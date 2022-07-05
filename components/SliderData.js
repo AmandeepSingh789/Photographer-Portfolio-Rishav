@@ -1,9 +1,9 @@
-
+import pic1 from './/images/IMG_1545-01.jpg'
 
 export const SliderData = [
     {
       image:
-        '/images/IMG_1545-01.jpg',
+      pic1,
     },
     {
       image:
