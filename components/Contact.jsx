@@ -3,7 +3,7 @@ import React from 'react'
 
 const Contact = () => {
   return (
-    <div className='max-w-[1240px] m-auto p-4  h-screen'>
+    <div id='form' className='max-w-[1240px] m-auto p-4  h-screen'>
        
     <h1 className='text-4xl font-bold text-center p-4'>Let's work together
     </h1>
@@ -21,5 +21,5 @@ const Contact = () => {
     </div>
   )
 }
-
+// rishav1@live.in
 export default Contact
