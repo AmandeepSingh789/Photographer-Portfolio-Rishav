@@ -1,5 +1,8 @@
-import pic1 from './/images/IMG_1545-01.jpg'
-
+import pic1 from './/images/ForSlider1.jpg'
+import pic2 from './/images/ForSlider2.JPG'
+import pic3 from './/images/ForSlider3.jpg'
+import pic4 from './/images/ForSlider4.jpeg'
+import pic5 from './/images/ForSlider5.jpeg'
 export const SliderData = [
     {
       image:
@@ -7,18 +10,20 @@ export const SliderData = [
     },
     {
       image:
-        'https://images.unsplash.com/photo-1469362102473-8622cfb973cd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2419&q=80',
+        pic2,
     },
     {
       image:
-        'https://images.unsplash.com/photo-1594717527389-a590b56e8d0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+      pic3,
     },
     {
       image:
-        'https://images.unsplash.com/photo-1484591974057-265bb767ef71?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2070&q=80',
+        pic4,
     },
     {
       image:
-        'https://images.unsplash.com/photo-1545917992-dea2d782ef46?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2489&q=80',
+      pic5,
     },
+    
+    
   ];
