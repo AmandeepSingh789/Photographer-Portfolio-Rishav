@@ -2,7 +2,10 @@ import React,{useState,useEffect} from 'react'
 import Link from 'next/link'
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {AiFillCloseCircle} from 'react-icons/ai';
-
+import {RiCameraLensFill} from 'react-icons/ri';
+import Image from 'next/image';
+import logo from './images/Logo.png';
+import img6 from './images/ForWork6.jpeg';
 const Navbar = () => {
 
   const [nav,setNav] = useState(false)
@@ -35,7 +38,11 @@ const Navbar = () => {
     <div style ={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white text-2xl'>
             <Link href = '/'> 
-            <h1 style ={{color: `${textColor}`}} className='font-bold text-4xl'>Rishav</h1> 
+            <h1 style ={{color: `${textColor}`}} className='font-bold text-4xl flex justify-around'>
+
+           Rishav's <RiCameraLensFill size={40} className='mx-2'/>
+            
+            </h1> 
             </Link>
             
             <ul style ={{color: `${textColor}`}} className='hidden sm:flex text-2xl'>
