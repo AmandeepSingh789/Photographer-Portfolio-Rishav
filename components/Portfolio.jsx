@@ -9,34 +9,34 @@ import img6 from './images/ForWork6.jpeg'
 const Portfolio = () => {
   return (
     <div className='max-w-[1240px] mx-auto pt-16 text-center'>
-        <h1 className='font-bold text-4xl p-4'>Travel Photos</h1>
+        <h1 className='font-bold text-5xl p-4 border-b-4 border-black'>Travel Photos</h1>
         <div>
-            <div className='w-full h-full  py-2' >
+            <div className='w-full h-full  py-4 mt-2 border-dotted border-b-4 border-black' >
                 <Image src={img1}  alt="/" 
                 layout='responsive' width='677' height= '451' />
             </div>
 
-            <div className='w-full h-full  py-2'>
+            <div className='w-full h-full  py-4  border-dotted border-b-4 border-black'>
             <Image src={img2}  alt="/" 
                 layout='responsive' width='677' height= '451'  objectFit='cover'/>
             </div>
 
-            <div className='w-full h-full py-2'>
+            <div className='w-full h-full py-4  border-dotted border-b-4 border-black'>
             <Image src={img3}  alt="/" 
                 layout='responsive' width='677' height= '451'  objectFit='cover'/>
             </div>
 
-            <div className='w-full h-full py-2'>
+            <div className='w-full h-full py-4  border-dotted border-b-4 border-black'>
             <Image src={img4}  alt="/" 
                 layout='responsive' width='677' height= '451'  objectFit='cover'/>
             </div>
 
-            <div className='w-full h-full py-2'>
+            <div className='w-full h-full py-4  border-dotted border-b-4 border-black'>
             <Image src={img5}  alt="/" 
                 layout='responsive' width='677' height= '451'  objectFit='cover'/>
             </div>
 
-            <div className='w-full h-full py-2'>
+            <div className='w-full h-full py-4  border-dotted border-b-4 border-black  '>
             <Image src={img6}  alt="/" 
                 layout='responsive' width='677' height= '451'  objectFit='cover'/>
             </div>

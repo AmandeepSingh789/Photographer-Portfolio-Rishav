@@ -12,10 +12,10 @@ import Instagramimg from './Instagramimg';
 const Instagram = () => {
   return (
     <div className='max-w-[1240px] mx-auto text-center py-24'>
-        <p className='text-3xl font-bold'>Follow me on Instagram</p>
-        <p className='pb-4 text-xl mt-2'>
+        <p className='text-5xl font-bold '>Follow me on Instagram</p>
+        <p className='pb-4 text-3xl mt-2 border-b-4 border-black'>
             <a href="https://www.instagram.com/imrishavv/" target="_blank">@imrishavv</a> </p>
-        <div className='grid grid-cols-1 md:grid-cols-2  gap-2 p-4'>
+        <div className='grid grid-cols-1 md:grid-cols-2  gap-2 p-4 mt-2'>
             <Instagramimg socialImg={IMG1}/>
             <Instagramimg socialImg={IMG2}/>
             <Instagramimg socialImg={IMG3}/>
