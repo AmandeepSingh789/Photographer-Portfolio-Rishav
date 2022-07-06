@@ -38,7 +38,7 @@ const Navbar = () => {
     <div style ={{backgroundColor: `${color}`}} className='fixed left-0 top-0 w-full z-10 ease-in duration-300'>
         <div className='max-w-[1240px] m-auto flex justify-between items-center p-4 text-white text-2xl'>
             <Link href = '/'> 
-            <h1 style ={{color: `${textColor}`}} className='font-bold text-4xl flex justify-around'>
+            <h1 style ={{color: `${textColor}`}} className='font-bold text-4xl flex justify-around logo-font'>
 
            Rishav's <RiCameraLensFill size={40} className='mx-2'/>
             

@@ -10,3 +10,7 @@ html{
 .custom-img{
   background-image: url('../components/images/ForHero.jpeg');
 }
+
+.logo-font{
+  font-family: 'Cookie', cursive;
+}
