@@ -4,7 +4,7 @@ import img1 from './images/ForWork1.jpeg'
 import img2 from './images/ForWork2.jpeg'
 import img3 from './images/ForWork3.jpeg'
 import img4 from './images/ForWork4.jpeg'
-import img5 from './images/ForWork5.jpg'
+import img5 from './images/ForWork5.JPG'
 import img6 from './images/ForWork6.jpeg'
 const Portfolio = () => {
   return (

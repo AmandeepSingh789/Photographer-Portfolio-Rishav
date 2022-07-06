@@ -3,7 +3,7 @@ import IMG1 from '../public/20180403183505_IMG_2916-01.jpeg';
 import IMG2 from '../public/20180403192338_IMG_2943-01.jpeg';
 import IMG3 from '../public/20180607064409_Img_3522.JPG';
 import IMG4 from '../public/IMG_0672-01.jpeg';
-import IMG5 from '../public/IMG_3046.jpg';
+import IMG5 from '../public/IMG_3046.JPG';
 import IMG6 from '../public/IMG_20190406_025104_799-01.jpeg';
 import Instagramimg from './Instagramimg.jsx';
 
