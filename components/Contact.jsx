@@ -5,7 +5,7 @@ const Contact = () => {
   return (
     <div className='max-w-[1240px] m-auto p-4  h-screen'>
        
-    <h1 className='text-5xl font-bold text-center p-4 border-b-4 border-black'>Let's work together
+    <h1 className='text-5xl font-bold text-center p-4 border-b-4 border-black'>Let&apos;s work together
     </h1>
     <form method='POST' action="https://getform.io/f/de7f67f0-9374-4f74-bcdf-e8a1fd4e2c20" className='max-w-[600px] m-auto mt-8'> 
         <div className='grid grid-cols-2 gap-2'>
