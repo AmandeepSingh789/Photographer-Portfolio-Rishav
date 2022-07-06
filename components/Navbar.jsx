@@ -3,9 +3,7 @@ import Link from 'next/link'
 import {GiHamburgerMenu} from 'react-icons/gi';
 import {AiFillCloseCircle} from 'react-icons/ai';
 import {RiCameraLensFill} from 'react-icons/ri';
-import Image from 'next/image';
-import logo from './images/Logo.png';
-import img6 from './images/ForWork6.jpeg';
+
 const Navbar = () => {
 
   const [nav,setNav] = useState(false)
