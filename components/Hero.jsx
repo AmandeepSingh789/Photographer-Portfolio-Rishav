@@ -10,11 +10,12 @@ const Hero = ({heading,message,button}) => {
             <h2 className='text-7xl font-bold '>{heading}</h2>
             <p className='py-5 text-3xl my-4'>{message}</p> 
 
-            {button ? <Link href= "/work"><button className='px-8 py-2 border-2   text-3xl hover:scale-125  hover:bg-neutral-500 transition ease-in-out ;'>Work With Me</button></Link>
-              : <button className='px-8 py-2 border-2   text-3xl hover:scale-125  hover:bg-neutral-500 transition ease-in-out ;'>Email Me !<AiOutlineArrowDown size={20} /> </button>
-             }
+            {button ? <Link href= "/contact"><button className='px-8 py-2 border-2   text-3xl hover:scale-125  hover:bg-neutral-500 transition ease-in-out ;'>Work With Me</button></Link>
+              :  <button className='px-8 py-2 border-2   text-3xl hover:scale-125  hover:bg-neutral-500 transition ease-in-out ; hidden'>Email Me !  </button>
+  }
             {/* <button className='px-8 py-2 border-2   text-3xl hover:scale-125  hover:bg-neutral-500 transition ease-in-out ;'>
              Book</button>  */}
+
             
             
             
