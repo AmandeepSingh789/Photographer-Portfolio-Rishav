@@ -38,7 +38,7 @@ const Navbar = () => {
             <Link href = '/'> 
             <h1 style ={{color: `${textColor}`}} className='font-bold text-4xl flex justify-around logo-font'>
 
-           Rishav's <RiCameraLensFill size={40} className='mx-2'/>
+           Rishav&apos;s <RiCameraLensFill size={40} className='mx-2'/>
             
             </h1> 
             </Link>

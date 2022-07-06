@@ -6,10 +6,10 @@ export default function Document() {
     <Html>
       <Head>
       <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 <link href="https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap" rel="stylesheet"/>
 <link rel="preconnect" href="https://fonts.googleapis.com" />
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin />
 <link href="https://fonts.googleapis.com/css2?family=Cookie&display=swap" rel="stylesheet" />
       </Head>
       <body> 
